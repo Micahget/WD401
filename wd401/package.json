@@ -4,7 +4,7 @@
   "description": "1.I am updating initializing of git flow",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Mikiyas Getachew",
   "license": "ISC",
@@ -12,5 +12,8 @@
     "css-loader": "^6.10.0",
     "file-loader": "^6.2.0",
     "style-loader": "^3.3.4"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
   }
 }
